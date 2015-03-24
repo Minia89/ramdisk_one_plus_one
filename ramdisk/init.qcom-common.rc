@@ -397,8 +397,6 @@ on property:init.svc.bootanim=running
     # Switch to fiops while booting
     write /sys/block/mmcblk0/queue/scheduler fiops
 
-start msm mpdecision
-
 service rmt_storage /system/bin/rmt_storage
     class core
     user root
